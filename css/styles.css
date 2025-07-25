@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+  max-width: 768px;
+  margin: auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+.theme-toggle {
+  padding-top: 1.5rem;
+}
+
+.neog-footer {
+  text-align: center;
+}
+
+.out-of-stock {
+  color: red;
+}
+
+.low-stock {
+  color: yellow;
+}
+
+.item-details td {
+  padding: lem;
+  border-radius: 4px;
+}
+
+.item-details:hover td {
+  background-color: #0f172b;
+  cursor: pointer;
+}
+
+.my-table tr:hover td {
+  background-color: #0f172b;
+}
